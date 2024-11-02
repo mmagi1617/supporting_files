@@ -31,5 +31,4 @@ public class ApplicationConfiguration {
 
 		return new OpenAPI().info(info).servers(List.of(localhost));
 	}
-
 }
